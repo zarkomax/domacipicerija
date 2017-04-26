@@ -1,0 +1,152 @@
+body{
+	background-image: url(http://www.picerija.co.rs/Elements/background.jpg);
+	background-size: cover;
+	border: 5px solid grey;
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+	margin-bottom: 100px;
+	text-align: center;
+	text-shadow: 4px 4px white;
+	font-size: 100px;
+}
+nav{
+	padding: 0px;
+	margin-left: 22%;
+}
+nav{
+	display: inline;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	list-style: none;
+}
+nav a{
+	margin: 10px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+}
+nav a:hover{
+	background: transparent;
+}
+ul li{
+	color: black;
+	padding: 10px;
+	text-align: left;
+}
+ul{
+	border: 3px solid grey;
+	margin: 50px;
+	margin-right: 850px;
+	margin-left: 100px;
+	background-color: transparent;
+}
+header{
+	background-image: url(https://static.pexels.com/photos/139306/pexels-photo-139306.jpeg);
+	height: 100px;
+	width: 100%;
+	background-size: cover;
+}
+section.home{
+	text-align: center;
+	font-size: 30px;
+	margin: 0px;
+	padding: 250px;
+}
+.mn{
+	text-decoration: none;
+	background: black;
+	border: 10px solid black;
+	color: gold;
+}
+.mn:hover{
+	background: transparent; 
+}
+.hm{
+	text-align: center;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+.hm:hover{
+	background: transparent;
+}
+section.meni{
+	background-image: url(http://www.zrenjaninski.com/wp-content/uploads/2016/11/pica.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid grey;
+	text-align: center;
+	font-size: 25px;
+}
+td,th{
+	font-size: 20px;
+	background-color: white;
+	text-decoration-style: arial;
+	padding: 2px;
+	margin: 0px;
+}
+th{
+	background-color: lightblue;
+}
+table{
+	border: 3px;
+	border-style: solid;
+	background-color: white;
+	width: 50%;
+	text-align: left;
+	margin-right: 300px;
+	background-color: blue;
+}
+table{
+	border: 3px;
+	border-style: solid;
+	background-color: white;
+	width: 40%;
+	text-align: left;
+	margin-left: 400px;
+	padding: 20px;
+}
+h2{
+	text-align: center;
+	padding: 10px;
+	margin: 30px;
+}
+section.pictures{
+	color: black;
+	text-align: center;
+	background-image: url(http://wallpapercave.com/wp/oNHaish.jpg);
+	background-size: cover;
+	font-size: 25px;
+}
+section.about{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+section.contact{
+	color: black;
+	text-align: left;
+	font-size: 27px;
+	background-image: url(http://kingofwallpapers.com/grey-background/grey-background-005.jpg);
+	background-size: cover;
+}
+.vp{
+	margin-left: 575px;
+}
+img:hover{
+	transform: rotate(360deg);
+	transition: 2s 
+}
+footer{
+	width: 100%;
+	height: 30px;
+	background-color: lightblue;
+	color: red;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
